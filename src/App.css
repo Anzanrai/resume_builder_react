@@ -73,6 +73,8 @@
 }
 
 .header-container {
+  /*background-color: #282c34;*/
+  /*color: white;*/
   padding-top: 20px;
   padding-left: 60px;
   padding-bottom: 20px;
@@ -80,4 +82,14 @@
 
 .form-container {
   padding-top: 15px;
+}
+
+.index-container {
+  padding-top: 5px;
+  /*background-color: #596700;*/
+}
+
+.index-description-content {
+  text-align: center;
+  color: #1f7fd1;
 }

@@ -1,11 +1,20 @@
 import React from 'react';
+import {Container} from "react-bootstrap";
+// import logo from './logo-creasume.png';
 
 class Header extends React.Component{
+    constructor(props){
+        super(props);
+        this.state = {
+            logoUrl : "./logo-creasume.png"
+        }
+    }
     render() {
         return(
-            <div className={'header-container'}>
-                Resume Builder
-            </div>
+            <Container>
+                <img src={this.state.logoUrl} alt="Crea-Sume"/>
+            </Container>
+
         )
     }
 }
