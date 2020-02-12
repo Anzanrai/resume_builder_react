@@ -9,6 +9,10 @@ import LoginForm from "../components/forms/LoginForm";
 import IndexDescriptionContainer from "./IndexDescriptionContainer";
 
 class IndexContainer extends React.Component{
+    componentDidMount() {
+        document.title = "Crea-Sume";
+    }
+
     render() {
         return(
             <div className={'index-container'}>
